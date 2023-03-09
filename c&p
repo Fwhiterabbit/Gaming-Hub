@@ -1,0 +1,21 @@
+h1::before {
+    content: attr(title);
+    position: absolute;
+    color: #f5af19;
+    top: 2px;
+    left: 2px;
+    z-index: -1;
+  }
+  
+  h1::after {
+    content: attr(title);
+    position: absolute;
+    color: #333;
+    top: 4px;
+    left: 4px;
+    z-index: -2;
+  }
+
+
+
+  
