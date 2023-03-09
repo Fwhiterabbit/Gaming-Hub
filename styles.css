@@ -57,7 +57,9 @@ body {
   }
 
   h2 {
-    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
   }
   
   section h2 {
