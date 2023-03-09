@@ -38,7 +38,10 @@ body {
   }
   
   nav a:hover {
-    color: #f00;
+    color: rgba(rgb(73, 81, 69), green, blue, alpha);
+    text-decoration: underline;
+    transition: 0.8s;
+    font-size: 30px;
   }
   
   /* Main Content Styles */
