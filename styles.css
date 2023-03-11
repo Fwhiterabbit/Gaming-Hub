@@ -102,27 +102,67 @@ body {
     color: rgba(rgb(70, 54, 54), green, blue, alpha)
   }
 
-  .brief {
-    font-style: italic;
+  .left-about-heading {
+    width: 60%;
+    float: left; /* changed from 'float: right;' */
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+  
+  #left-about {
+    width: 33%;
+    float: top; /* changed from 'float: left;' */
     text-align: center;
+  }
+  
+  #circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
     margin: 0 auto;
-    padding: 0 auto;
-    font-size: 40px;
-    }
+  }
+  
+  #circle-img {
+    background: url('media/redpad.jpg') no-repeat center center;
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+  }
+  
+  #circle-img:hover {
+    transform: scale(1.1) rotate(-5deg);
+    filter: hue-rotate(180deg);
+    animation: glitch 0.7s infinite;
+  }
 
-    #brief-circle {
-      width: 800px;
-      height: 400px;
-      border-radius: 50%;
+  @keyframes glitch {
+    0% {
+      clip-path: inset(0 40% 0 0);
+      transform: skew(0deg);
     }
-
-    .circle-img {
-      width: 10%;
+    25% {
+      clip-path: inset(50% 0 0 0);
+      transform: skew(-5deg);
     }
-
-    .main-img {
-      width: 100%;
+    50% {
+      clip-path: inset(0 0 0 60%);
+      transform: skew(0deg);
     }
+    75% {
+      clip-path: inset(0 0 50% 0);
+      transform: skew(5deg);
+    }
+    100% {
+      clip-path: inset(20% 0 0 0);
+      transform: skew(0deg);
+    }
+  }
 
   
   /* Footer Styles */

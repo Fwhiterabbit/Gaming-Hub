@@ -1,24 +1,17 @@
-h1::before {
-    content: attr(title);
-    position: absolute;
-    color: #f5af19;
-    top: 2px;
-    left: 2px;
-    z-index: -1;
-  }
-  
-  h1::after {
-    content: attr(title);
-    position: absolute;
-    color: #333;
-    top: 4px;
-    left: 4px;
-    z-index: -2;
-  }
+.left-about-heading {
+  width: 60%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
 
-
-
-  /* image inside the circle */
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  position: relative;
+}
 
   #circle-container {
     width: 300px;
@@ -31,11 +24,89 @@ h1::before {
     margin: 0 auto;
 }
 
-#circle-cover-bg {
-    background: url('../images/ethos-center-image.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
+#circle-img {
+  background: url('media/redpad.jpg') no-repeat center center;
+  background-size: cover;
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%;
 }
 
+-----------------------------
 
+#circle-img {
+  background: url('media/redpad.jpg') no-repeat center center;
+  background-size: cover; /* scale the image to cover the entire element */
+  width: 200px; /* set the width of the element */
+  height: 200px; /* set the height of the element */
+  border-radius: 50%;
+}
+
+#circle-img {
+  background: url('media/redpad.jpg') no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
   
+
+
+.left-about-heading {
+  width: 60%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+
+<div id="left-about">
+  <div class="left-about-heading">
+    <h2>Gaming</h2>
+    <hr>
+    <p>Website that offers a variety of games for all types of players! 
+    Our website features a diverse selection of games, 
+    including popular titles and new releases across multiple genres and platforms. 
+    Whether you're into action, adventure, puzzle, or simulation games, we've got something for you!
+    </p>
+</div>
+
+
+
+.left-about-heading {
+  width: 60%;
+  float: left; /* changed from 'float: right;' */
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right; /* changed from 'float: left;' */
+  position: relative;
+}
+
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#circle-img {
+  background: url('media/redpad.jpg') no-repeat center center;
+  background-size: cover;
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%;
+}
