@@ -1,7 +1,7 @@
 /* Global Styles */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lora', sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -47,9 +47,9 @@ body {
   /* Main Content Styles */
   
   main {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    max-width: 960px;
   }
   
   section {
@@ -61,7 +61,7 @@ body {
     text-transform: uppercase;
     font-family: 'Lora', serif;
   }
-
+/* Logo */
   h1 {
     font-size: 2em;
     color: rgba(rgb(27, 22, 22), green, blue, alpha);
@@ -84,9 +84,9 @@ body {
   
   h1:hover::after {
     bottom: -5px;
-    height: 15px;
+    height: 10px;
   }
-  
+
 
   section h2 {
     font-size: 24px;
@@ -124,30 +124,9 @@ body {
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 5px;
   }
 
-  #circle-container2 {
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
-
-  #circle-container3 {
-    width: 300px;
-    height: 300px;
-    padding: 5px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-  }
 
   #container {
     display:inline-flex;
@@ -158,7 +137,7 @@ body {
 
   #container img {
     width: 33%;
-    margin: 5px;
+    margin-right: 10px;
   }
   
   #circle-img {
