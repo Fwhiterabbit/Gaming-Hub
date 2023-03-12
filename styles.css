@@ -138,7 +138,7 @@ body {
     width: 33%;
     margin-right: 10px;
   }
-  /* Circle img */
+  /* Circle img and glitch effect */
 
   #circle-img {
     background: url('media/redpad.jpg') no-repeat center center;
@@ -156,10 +156,18 @@ body {
     border-radius: 50%;
   }
 
+  #circle-img3 {
+    background: url('media/mouse.jpg') no-repeat center center;
+    background-size: cover;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+  }
+
 
   /* glitch effect */
 
-  #circle-img:hover {
+  #circle-img:hover, #circle-img2:hover, #circle-img3:hover {
     transform: scale(1.1) rotate(-5deg);
     filter: hue-rotate(180deg);
     animation: glitch 0.7s infinite;
