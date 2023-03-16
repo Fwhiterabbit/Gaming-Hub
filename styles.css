@@ -103,19 +103,7 @@ ul li a:hover {
   color: rgba(rgb(70, 54, 54), green, blue, alpha)
 }
 
-.left-about-heading {
-  width: 60%;
-  float: left; /* changed from 'float: right;' */
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 50px;
-}
 
-#left-about {
-  width: 33%;
-  float: top; /* changed from 'float: left;' */
-  text-align: center;
-}
 
 #circle-container {
   width: 300px;
@@ -243,4 +231,10 @@ footer p {
 
 #context p {
   font-size: 20px;
+}
+
+/* Page for xbox */
+
+.xbox {
+  color: green;
 }
