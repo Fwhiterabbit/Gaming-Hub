@@ -228,6 +228,19 @@ footer {
   padding: 10px;
 }
 
-p {
+footer p {
   color:rgb(141, 10, 10)
+}
+
+
+/* Page for Play Station */
+
+#context {
+  padding: 10px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#context p {
+  font-size: 20px;
 }
