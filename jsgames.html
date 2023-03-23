@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+      </style>
+    <title>Gaming Hub</title>
+    <link rel="stylesheet" type="text/css" href="mathquiz/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">Gaming Hub</a></h1>
+    </header>
+
+    <div id="container2">
+        <div class="game-area">
+            <div class="controls-area">
+                <button data-type="addition" class="btn btn--big btn--green">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button data-type="subtract" class="btn btn--big btn--blue">
+                    <i class="fas fa-minus"></i>
+                </button>
+                <button data-type="multiply" class="btn btn--big btn--orange">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button data-type="division" class="btn btn--big btn--red">
+                    <i class="fas fa-divide"></i>
+                </button>
+            </div>
+            <div class="question-area">
+                <span id="operand1">0</span>
+                <span id="operator">x</span>
+                <span id="operand2">0</span>
+                <span>=</span>
+                <p class="answer-message">Enter Answer:</p>
+                <input id="answer-box" type="number">
+            </div>
+            <button data-type="submit" class="btn btn--gray">Submit Answer</button>
+        </div>
+      
+        <div class="score-area">
+            <p class="scores">Correct Answers <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+        </div>
+      
+        <script src="mathquiz/script.js"></script>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Gaming Hub. All rights reserved. Created by Fwhiterabbit.</p>
+    </footer>
+  </body>
+</html>

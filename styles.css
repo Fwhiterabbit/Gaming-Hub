@@ -238,3 +238,11 @@ footer p {
 .xbox {
   color: green;
 }
+
+
+-------------------------
+
+p .math {
+  text-align: center;
+  font-size: 50px;
+}
