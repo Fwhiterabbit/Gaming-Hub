@@ -246,3 +246,78 @@ p .math {
   text-align: center;
   font-size: 50px;
 }
+
+/* For screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #circle-container {
+    margin-bottom: 20px;
+  }
+  
+  .mid-text {
+    padding: 20px;
+  }
+
+  h2 {
+    display: none;
+  }
+}
+
+/* For screens between 600px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    margin: 0;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  #circle-container {
+    margin: 0;
+    display: none;
+  }
+
+ #circle-img, #circle-img2, #circle-img3 {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+  .mid-text {
+    padding: 20px;
+  }
+}
